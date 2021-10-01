@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Elena</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav>
+       <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>      
+    </nav>
+<main>
+    <section class="about" id="about">
+        <div class="cont_one">
+            <h3>About me</h3>
+            <div class="info">
+                <h1>Seredich Elena</h1>
+                <p>Junior programmer</p>
+                <h4>I like life. I believe that we should love what we do. I like IT, codding and new feature. To study new and write programs is wonderful. We can make the World a little better. But sometimes difficult but it worth it.</h4>   
+            </div>
+            <div class="img_one">
+                <img src="img/logo.jpg" alt="">
+            </div>
+        </div>
+     
+    </section>
+    <section class="skills" id="skill">
+        <img src="img/skills.jpg" alt="">
+        <div><ul>
+            <li>HTML CSS JS</li>
+            <li>My English language - A2.</li>
+            <li>Git</li>
+            <li>Tertiary education</li>
+            <li>Perseverance</li>
+        </ul>
+        </div>
+    </section>
+    <section class="cod"><h5>Code JS:</h5>
+        
+
+        <pre><code> 
+        function capital(capitals){
+            let array = [];
+            for(let i=0; i<capitals.length; i++){<br>
+                if( &quotstate&quot in capitals[i]){
+                    let s = `The capital of ${capitals[i][&quotstate&quot]} is ${capitals[i][&quotcapital&quot]}`;
+                    array.push(s);
+                }else{
+                    let s = `The capital of ${capitals[i]["country"]} is ${capitals[i]["capital"]}`;
+                    array.push(s);
+                }     
+            }
+            return array;
+        }
+        </code></pre>
+    </section>
+    <section class="my_contacts" id="contact">
+        <ul><h4>Contacts:</h4>
+            <li>email: eseredich8@gmail.com</li>
+            <li>address: Belarus, Minsk</li>
+            <li>number: +37529 456 23 23</li>
+        </ul>
+    </section>
+</main>
+   
+   <footer>
+       <p>© 2021 RSS_Life</p>
+    </footer>
+</body>
+</html>
