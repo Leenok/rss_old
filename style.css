@@ -1,0 +1,249 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Aleo', serif;
+}
+section{
+    max-height: 1440px;
+}
+h2{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 40px;
+    color: #F2785C;
+    font-weight: 500;
+    text-align: center;
+}
+header{
+    color: white;
+    height: 90px;
+    width: 100%;
+    z-index: 6;
+}
+.container{
+    background-color: rgba(242, 120, 92,50);
+    font-family: 'Aleo', serif;
+    overflow: hidden;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 120px;
+    margin: 0 auto;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu ul li{
+    padding: 25px;
+}
+.menu-item a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+.menu ul li:hover{
+    border-radius: 5px;
+    background-color: #892E19;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 32px;
+}
+.logo img{
+    max-width: 30px;
+    max-height: 30px;
+}
+button{
+    background: #0D606F;
+    color: white;
+    padding: 10px 32px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+button:hover{
+    background-color: #892E19;
+}
+
+.desktop{
+    background-image: url("image/garrett-parker-DlkF4-dbCOU-unsplash 1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 900px;
+    z-index: 4;
+}
+.desktop-info{
+    max-width: 892px;
+    max-height: 422px;
+    padding-left: 120px;
+    padding-top: 150px;
+}
+h1{
+    color: white;
+    font-weight: 700;
+    font-size: 80px;
+    margin: 0;
+    font-family: 'Aleo', serif;
+    line-height: 96px;
+}
+.desktop-info p{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 46px;
+}
+.start-planning{
+    background-color: white;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.start-planning p{
+    color: #F2785C;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    margin: auto 41px;
+}
+.start-planning button{
+    margin: 18px;
+    font-size: 24px;
+}
+.steps{
+    margin-top: 70px;
+    margin-bottom: 97px;
+}
+.steps-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.steps-info div{
+    height: 154px;
+    margin: 40px;
+}
+
+.steps-info p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #0D606F;
+}
+.list{
+    max-width: 1000px;
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    margin: 0 auto;
+}
+.list-item{
+    width: 800px;
+    height: 800px;
+    flex-shrink: 0;
+    color: white;
+    font-weight: 700;
+    text-align: left;
+    margin: 15px;
+}
+.list-item:nth-child(1){
+    background-image: url("image/SPAIN (2).jpg");
+}
+.list-item:nth-child(2){
+    background-image: url("image/JAPAN.jpg");
+}
+.list-item:nth-child(3){
+    background-image: url("image/USA.jpg");
+}
+.destinations{
+    margin-bottom: 40px;
+}
+.bt_dest{
+    margin: 84px 600px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+.story-fon{
+    background-image: url("image/Rectangle 33.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+    filter:alpha(opacity=40);
+    width: 100%;
+}
+.story{
+    background-color: rgba(215 175 172 / 80%);
+    padding: 35px 0;
+    font-size: 20px;
+    line-height: 24px;
+}
+.story-info{
+    display: grid;
+    grid-template: 1fr/1fr  2fr ;
+    text-align: left;
+    max-width: 1250px;
+    column-gap: 40px;
+    color: #0D606F;
+    margin: 15px 120px;
+}
+.story-info img{
+    max-width: 400px;
+    max-height: 250px;
+    text-align: center;
+    border-radius: 16px;
+    -webkit-box-shadow: 0 12px 8px -4px rgba(6, 24, 37, 0.6);
+    -moz-box-shadow: 0 12px 8px -4px rgba(6, 24, 37, 0.6);
+    box-shadow: 0 12px 8px -4px rgba(6, 24, 37, 0.6);
+}
+h4{
+    font-size: 35px;
+    margin: 10px;
+}
+.story button{
+    width: 228px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 630px;
+}
+
+footer{
+    height: 80px;
+    margin-top: -80px;
+}
+.footer-info{
+    display: flex;
+    justify-content: end;
+    color: white;
+    flex-basis: content-box;
+    padding-top: 20px;
+}
+footer div{
+    margin-right: 121px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+.footer-info a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.footer-info a:hover{
+    background-color: #F2785C;
+}
